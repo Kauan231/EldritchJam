@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"WallObj",
+  "%Name":"KeyObj",
   "eventList":[],
   "managed":true,
-  "name":"WallObj",
+  "name":"KeyObj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enviroment",
-    "path":"folders/Objects/Enviroment.yy",
+    "name":"Items",
+    "path":"folders/Objects/Items.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,12 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Wall",
-    "path":"sprites/Wall/Wall.yy",
+    "name":"Key",
+    "path":"sprites/Key/Key.yy",
   },
   "spriteMaskId":null,
-  "tags":[
-    "Wall",
-  ],
   "visible":true,
 }
