@@ -1,25 +1,25 @@
-// --- PLAYER MOVEMENT SCRIPT ---
+// --- PLAYER MOVEMENT SCRIPT WITH FRICTION ---
 
-// Movement speed
-var move_speed = 4;
+var acc = 0.4;       // acceleration
+var max_spd = 5;     // max speed
+var fric = 0.2;      // friction
 
-// Reset movement
-var hmove = 0;
-var vmove = 0;
+// Horizontal movement
+if (keyboard_check(vk_right) || keyboard_check(ord("D"))) hspeed += acc;
+if (keyboard_check(vk_left)  || keyboard_check(ord("A"))) hspeed -= acc;
 
-// Keyboard input (WASD or Arrow Keys)
-if (keyboard_check(vk_right) || keyboard_check(ord("D"))) hmove = 1;
-if (keyboard_check(vk_left)  || keyboard_check(ord("A"))) hmove = -1;
-if (keyboard_check(vk_down)  || keyboard_check(ord("S"))) vmove = 1;
-if (keyboard_check(vk_up)    || keyboard_check(ord("W"))) vmove = -1;
+// Vertical movement
+if (keyboard_check(vk_down)  || keyboard_check(ord("S"))) vspeed += acc;
+if (keyboard_check(vk_up)    || keyboard_check(ord("W"))) vspeed -= acc;
 
-// Normalize diagonal movement (prevents moving faster diagonally)
-if (hmove != 0 || vmove != 0) {
-    var len = point_distance(0,0,hmove,vmove);
-    hmove /= len;
-    vmove /= len;
+// Clamp speed
+hspeed = clamp(hspeed, -max_spd, max_spd);
+vspeed = clamp(vspeed, -max_spd, max_spd);
+
+// Apply friction (slows down when no input)
+if (!keyboard_check(vk_left) && !keyboard_check(vk_right)) {
+    hspeed = lerp(hspeed, 0, fric);
 }
-
-// Apply movement
-x += hmove * move_speed;
-y += vmove * move_speed;
+if (!keyboard_check(vk_up) && !keyboard_check(vk_down)) {
+    vspeed = lerp(vspeed, 0, fric);
+}

@@ -35,9 +35,11 @@
   },
   "name":"Eldritch",
   "resources":[
+    {"id":{"name":"MockObjectAction","path":"objects/MockObjectAction/MockObjectAction.yy",},},
     {"id":{"name":"PlayerAction","path":"objects/PlayerAction/PlayerAction.yy",},},
     {"id":{"name":"Hall","path":"rooms/Hall/Hall.yy",},},
     {"id":{"name":"Movement","path":"scripts/Movement/Movement.yy",},},
+    {"id":{"name":"MockObject","path":"sprites/MockObject/MockObject.yy",},},
     {"id":{"name":"Player","path":"sprites/Player/Player.yy",},},
   ],
   "resourceType":"GMProject",
