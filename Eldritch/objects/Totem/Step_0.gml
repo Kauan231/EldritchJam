@@ -10,6 +10,7 @@ if (shootBean) {
     }
 	shootBean = false;
 	countdown_timer = room_speed + 60;
+	audio_play_sound(Laser, 1, false)
 }
 
 if(isShooting) {
@@ -19,5 +20,4 @@ if(isShooting) {
 	if (countdown_timer < 0) {
 		isShooting = false;
 	}
-
 }

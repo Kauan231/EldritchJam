@@ -21,3 +21,13 @@ if (isColliding == false && inst != noone) {
 	}
 }
 
+
+if (isColliding == false) {
+    playedSound = false;
+}
+
+if(isColliding && playedSound == false){
+	audio_play_sound(ChestOpen, 1, false);
+	playedSound = true;
+}
+

@@ -72,6 +72,8 @@
     {"id":{"name":"Movement","path":"scripts/Movement/Movement.yy",},},
     {"id":{"name":"Ambience","path":"sounds/Ambience/Ambience.yy",},},
     {"id":{"name":"BossMusic","path":"sounds/BossMusic/BossMusic.yy",},},
+    {"id":{"name":"ChestOpen","path":"sounds/ChestOpen/ChestOpen.yy",},},
+    {"id":{"name":"Laser","path":"sounds/Laser/Laser.yy",},},
     {"id":{"name":"LeverSound","path":"sounds/LeverSound/LeverSound.yy",},},
     {"id":{"name":"Music","path":"sounds/Music/Music.yy",},},
     {"id":{"name":"Steps","path":"sounds/Steps/Steps.yy",},},
