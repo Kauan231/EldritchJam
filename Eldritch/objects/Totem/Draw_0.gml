@@ -1,3 +1,5 @@
+draw_self()
+
 // Draw Event
 if (isShooting) {
     draw_set_color(c_red);

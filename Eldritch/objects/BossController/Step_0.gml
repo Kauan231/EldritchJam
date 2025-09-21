@@ -18,12 +18,11 @@ if(allLeversActive) {
 	var allTotems = instance_number(Totem);
 	for (var i = 0; i < allTotems; i++) {
 		var current_totem = instance_find(Totem, i);
-		if(i > player.numberOfGems || player.numberOfGems == 0) {
-			instance_destroy(current_totem)
+		if (i >= player.numberOfGems || player.numberOfGems == 0) {
+		    instance_destroy(current_totem);
 		} else {
-			current_totem.shootBean = true;
+		    current_totem.shootBean = true;
 		}
-	    
 	}
 	
 	for (var i = 0; i < allLeversObj; i++) {

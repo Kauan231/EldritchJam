@@ -34,3 +34,13 @@ if (player != noone && !player.isDead) {
     draw_set_color(c_white);
     draw_text(barX, barY, string(currentHP) + " / " + string(bossMaxLife));
 }
+
+if (variable_instance_exists(id, "bossLife") && bossLife <= 0) {
+    if (!global.winScreenTriggered) {
+        global.winScreenTriggered = true;
+		with(PlayerAction) {
+			instance_destroy()
+		}
+        room_goto(WinningRoom); // Or create a Draw overlay in current room
+    }
+}

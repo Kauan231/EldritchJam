@@ -8,7 +8,7 @@ if (shootBean) {
         // store target position for drawing later
         targetX = bossController.x;
         targetY = bossController.y;
-        isShooting = true;
+        isShooting = true; 
     }
 	shootBean = false;
 	countdown_timer = room_speed + 60;

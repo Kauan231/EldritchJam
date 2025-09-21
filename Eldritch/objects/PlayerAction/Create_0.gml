@@ -17,7 +17,7 @@ footstep_loop = Steps;  // the footstep sound asset
 footstep_sound = -1;    // initialize with -1, meaning "no sound playing"
 
 inventory = {}; // empty struct
-numberOfGems = 0;
+numberOfGems = 2;
 
 show_debug_message(inventory);
 

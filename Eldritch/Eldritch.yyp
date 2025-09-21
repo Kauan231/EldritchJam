@@ -66,6 +66,7 @@
     {"id":{"name":"Totem","path":"objects/Totem/Totem.yy",},},
     {"id":{"name":"Turret","path":"objects/Turret/Turret.yy",},},
     {"id":{"name":"WallObj","path":"objects/WallObj/WallObj.yy",},},
+    {"id":{"name":"Win","path":"objects/Win/Win.yy",},},
     {"id":{"name":"Boss","path":"rooms/Boss/Boss.yy",},},
     {"id":{"name":"Chancel","path":"rooms/Chancel/Chancel.yy",},},
     {"id":{"name":"Crossing","path":"rooms/Crossing/Crossing.yy",},},
@@ -73,6 +74,7 @@
     {"id":{"name":"Nave","path":"rooms/Nave/Nave.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"id":{"name":"WinningRoom","path":"rooms/WinningRoom/WinningRoom.yy",},},
     {"id":{"name":"Movement","path":"scripts/Movement/Movement.yy",},},
     {"id":{"name":"Ambience","path":"sounds/Ambience/Ambience.yy",},},
     {"id":{"name":"BossMusic","path":"sounds/BossMusic/BossMusic.yy",},},
@@ -124,6 +126,7 @@
     {"roomId":{"name":"Boss","path":"rooms/Boss/Boss.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
+    {"roomId":{"name":"WinningRoom","path":"rooms/WinningRoom/WinningRoom.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
