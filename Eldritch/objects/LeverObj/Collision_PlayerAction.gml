@@ -1,4 +1,8 @@
-isLeverActive = true
+// Step Event
 
-var bossController = instance_find(BossController, 0);
-bossController.activateLever(leverId)
+// If the lever is pressed and cooldown is over
+if (countdown_timer <= 0) {
+	isLeverActive = true;
+}
+
+

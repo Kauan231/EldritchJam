@@ -9,11 +9,8 @@ if (shootBean) {
         isShooting = true;
     }
 	shootBean = false;
-	countdown_timer = room_speed;
+	countdown_timer = room_speed + 60;
 }
-
-show_debug_message(countdown_timer)
-show_debug_message(isShooting)
 
 if(isShooting) {
 	// Step Event
