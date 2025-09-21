@@ -1,3 +1,5 @@
+//DeleteExcessTurrets
+
 
 // Step Event
 if (shootBean) {
@@ -11,6 +13,7 @@ if (shootBean) {
 	shootBean = false;
 	countdown_timer = room_speed + 60;
 	audio_play_sound(Laser, 1, false)
+	bossController.drainHealth();
 }
 
 if(isShooting) {

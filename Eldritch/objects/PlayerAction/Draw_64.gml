@@ -1,0 +1,14 @@
+if (visible) {
+    draw_set_font(fnt_big); // Replace with your spooky font
+    draw_set_halign(fa_center);
+    draw_set_valign(fa_middle);
+    draw_set_alpha(alpha);
+    draw_set_color(c_white);
+    
+    var textX = display_get_gui_width() / 2;
+    var textY = display_get_gui_height() / 2;
+    
+    draw_text(textX, textY, message);
+    
+    draw_set_alpha(1); // Reset
+}

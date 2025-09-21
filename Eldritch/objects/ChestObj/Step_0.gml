@@ -3,19 +3,19 @@ if (!place_meeting(x, y, PlayerAction)) {
 }
 
 if (isColliding && inst == noone && hasItem) {
-    inst = instance_create_layer(x, y, "Instances", itemToInstantiate);
+    inst = instance_create_layer(x -16, y - 32, "Instances", itemToInstantiate);
 }
 
 if (isColliding && inst != noone) {
-    inst.targetX = x;
-    inst.targetY = y - 32;
+    inst.targetX = x - 16;
+    inst.targetY = y - 64;
 }
 
 if (isColliding == false && inst != noone) {
-    inst.targetX = x;
-    inst.targetY = y;
+    inst.targetX = x - 16;
+    inst.targetY = y - 32;
 	
-	if(inst.x == x && inst.y == y) {
+	if(inst.x == x - 16 && inst.y == y - 32) {
 		 instance_destroy(inst.id)
 		 inst = noone;
 	}

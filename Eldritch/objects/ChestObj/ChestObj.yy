@@ -42,8 +42,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Chest",
-    "path":"sprites/Chest/Chest.yy",
+    "name":"chestClosedSprite",
+    "path":"sprites/chestClosedSprite/chestClosedSprite.yy",
   },
   "spriteMaskId":null,
   "visible":true,

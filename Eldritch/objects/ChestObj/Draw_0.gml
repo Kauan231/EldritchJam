@@ -1,6 +1,8 @@
 draw_self();
 
 if (isColliding) {
+	sprite_index = chestOpenSprite;
+	
     var px = PlayerAction.x;
     var py = PlayerAction.y;
 
@@ -15,4 +17,6 @@ if (isColliding) {
     // Texto por cima
     draw_set_color(c_lime);
     draw_text(px + 50, py - 16, msg);
+} else {
+	sprite_index = chestClosedSprite;
 }

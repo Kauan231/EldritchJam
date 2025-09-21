@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"placeholder",
-    "path":"sprites/placeholder/placeholder.yy",
+    "name":"Crystal",
+    "path":"sprites/Crystal/Crystal.yy",
   },
   "spriteMaskId":null,
   "visible":true,
