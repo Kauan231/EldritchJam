@@ -9,5 +9,6 @@ switch(roomName) {
 	case "Chancel": room_goto(Chancel); break;
 	case "Boss": room_goto(Boss); break;
 	case "Room1": room_goto(Room1); break;
+	case "Room2": room_goto(Room2); break;
     default: show_debug_message("Room not found: " + roomName);
 }

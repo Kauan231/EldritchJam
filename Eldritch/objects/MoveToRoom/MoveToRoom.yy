@@ -26,9 +26,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"roomName","filters":[],"listItems":[],"multiselect":false,"name":"roomName","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Narthex","varType":2,},
-    {"$GMObjectProperty":"v1","%Name":"posX","filters":[],"listItems":[],"multiselect":false,"name":"posX","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"posY","filters":[],"listItems":[],"multiselect":false,"name":"posY","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"roomName","filters":[],"listItems":[],"multiselect":false,"name":"roomName","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Room2","varType":2,},
+    {"$GMObjectProperty":"v1","%Name":"posX","filters":[],"listItems":[],"multiselect":false,"name":"posX","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"830","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"posY","filters":[],"listItems":[],"multiselect":false,"name":"posY","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"470","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
