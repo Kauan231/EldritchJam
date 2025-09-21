@@ -146,7 +146,6 @@
     {"name":"inst_6D75A330","path":"rooms/Boss/Boss.yy",},
     {"name":"inst_4ED229B4","path":"rooms/Boss/Boss.yy",},
     {"name":"inst_41BC8150","path":"rooms/Boss/Boss.yy",},
-    {"name":"inst_5C61E5FF","path":"rooms/Boss/Boss.yy",},
     {"name":"inst_6243F6E4","path":"rooms/Boss/Boss.yy",},
     {"name":"inst_16D6A2D0","path":"rooms/Boss/Boss.yy",},
     {"name":"inst_60EA9115","path":"rooms/Boss/Boss.yy",},
@@ -203,7 +202,6 @@
         {"$GMRInstance":"v2","%Name":"inst_999C27A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_999C27A","objectId":{"name":"Turret","path":"objects/Turret/Turret.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"Turret","path":"objects/Turret/Turret.yy",},"propertyId":{"name":"randomNumber","path":"objects/Turret/Turret.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"2",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":3.0,"scaleY":3.0,"x":1184.0,"y":96.0,},
-        {"$GMRInstance":"v2","%Name":"inst_5C61E5FF","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5C61E5FF","objectId":{"name":"PlayerAction","path":"objects/PlayerAction/PlayerAction.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":2.0,"x":608.0,"y":704.0,},
         {"$GMRInstance":"v2","%Name":"inst_A214F27","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_A214F27","objectId":{"name":"BossController","path":"objects/BossController/BossController.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":608.0,"y":448.0,},
         {"$GMRInstance":"v2","%Name":"inst_37D6D021","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_37D6D021","objectId":{"name":"Totem","path":"objects/Totem/Totem.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":608.0,},
         {"$GMRInstance":"v2","%Name":"inst_611D510E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_611D510E","objectId":{"name":"Totem","path":"objects/Totem/Totem.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1152.0,"y":640.0,},

@@ -2,7 +2,7 @@
   "$GMObject":"",
   "%Name":"BackgroundMusic",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":7,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"BackgroundMusic",
@@ -27,6 +27,7 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"song","filters":[],"listItems":[],"multiselect":false,"name":"song","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Music","path":"sounds/Music/Music.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Music","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"gain","filters":[],"listItems":[],"multiselect":false,"name":"gain","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.5","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -1,2 +1,2 @@
 isLeverActive = false
-countdown_timer = room_speed;
+countdown_timer = 0;
