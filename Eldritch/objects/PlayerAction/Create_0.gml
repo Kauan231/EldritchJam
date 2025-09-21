@@ -16,12 +16,12 @@ visible = true;
 footstep_loop = Steps;  // the footstep sound asset
 footstep_sound = -1;    // initialize with -1, meaning "no sound playing"
 
-inventory = {}; // empty struct
-numberOfGems = 2;
+hasKey = false;
+numberOfGems = 0;
 
-show_debug_message(inventory);
-
-// In Player Create Event
 addItemToInventory = function(itemId) {
-    inventory[itemId] = true;
+    if (itemId == 100) { // example gem id
+        return numberOfGems++;
+    }
+    hasKey = true;
 };

@@ -5,5 +5,5 @@ instancesOfTurrets = 0;
 global.winScreenTriggered = false;
 
 function drainHealth() {
-	bossLife = bossLife - 100;
+	bossLife = bossLife - 10;
 }

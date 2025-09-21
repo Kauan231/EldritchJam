@@ -19,12 +19,13 @@ function Die() {
 	if (alpha < 1) {
 	    alpha += fade_in_speed;
 	}
+	
+	audio_stop_all();
 }
 
 if(isDead) {
 	return Die()
 }
-
 
 var moved = false;
 var spd = movSpeed;

@@ -1,8 +1,7 @@
 if(isColliding && hasItem) {
 	if (instance_exists(PlayerAction)) {
 		hasItem = false;
-		instance_destroy(inst.id)
-		inst = noone;
 	    PlayerAction.addItemToInventory(itemId);
+		instance_destroy()
 	}
 }

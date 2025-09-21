@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"ChestObj",
+  "%Name":"ChestObj_1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"PlayerAction","path":"objects/PlayerAction/PlayerAction.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -9,7 +9,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":69,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"ChestObj",
+  "name":"ChestObj_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Interactive",
@@ -35,16 +35,16 @@
   ],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"itemId","filters":[],"listItems":[],"multiselect":false,"name":"itemId","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"itemToInstantiate","filters":[],"listItems":[],"multiselect":false,"name":"itemToInstantiate","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"KeyObj","path":"objects/KeyObj/KeyObj.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"KeyObj","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"itemId","filters":[],"listItems":[],"multiselect":false,"name":"itemId","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"100","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"itemToInstantiate","filters":[],"listItems":[],"multiselect":false,"name":"itemToInstantiate","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Crystal","path":"sprites/Crystal/Crystal.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Crystal","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"loreMsg","filters":[],"listItems":[],"multiselect":false,"name":"loreMsg","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Description: Used to open a door","varType":2,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"chestClosedSprite",
-    "path":"sprites/chestClosedSprite/chestClosedSprite.yy",
+    "name":"Crystal",
+    "path":"sprites/Crystal/Crystal.yy",
   },
   "spriteMaskId":null,
   "visible":true,

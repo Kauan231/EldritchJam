@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_floor",
+  "%Name":"obj_floor_1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"PlayerAction","path":"objects/PlayerAction/PlayerAction.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":69,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_floor",
+  "name":"obj_floor_1",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -30,17 +30,16 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"acessible","filters":[],"listItems":[],"multiselect":false,"name":"acessible","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"spriteToDisplay","filters":[],"listItems":[],"multiselect":false,"name":"spriteToDisplay","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Floor","path":"sprites/Floor/Floor.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Floor","varType":5,},
     {"$GMObjectProperty":"v1","%Name":"keyId","filters":[],"listItems":[],"multiselect":false,"name":"keyId","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"acessible","filters":[],"listItems":[],"multiselect":false,"name":"acessible","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"Floor",
-    "path":"sprites/Floor/Floor.yy",
+    "name":"Porta",
+    "path":"sprites/Porta/Porta.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

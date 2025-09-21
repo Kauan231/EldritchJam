@@ -22,9 +22,6 @@ if (isColliding && hasItem) {
 	// Draw the lore text itself
 	draw_set_color(c_white);
 	draw_text(loreX + 8, loreY + 8, loreMsg);
-
-	
-    sprite_index = chestOpenSprite;
     
     var px = PlayerAction.x;
 	var py = PlayerAction.y;
@@ -44,7 +41,4 @@ if (isColliding && hasItem) {
 	draw_set_color(c_lime);
 	draw_text(px + 50, py - 16, msg);
 
-} else {
-    sprite_index = chestClosedSprite;
 }
-
