@@ -6,8 +6,8 @@
   "name":"WallObj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Enviroment",
-    "path":"folders/Objects/Enviroment.yy",
+    "name":"Map",
+    "path":"folders/Objects/Enviroment/Map.yy",
   },
   "parentObjectId":null,
   "persistent":false,
