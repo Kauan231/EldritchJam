@@ -42,5 +42,5 @@
     "path":"sprites/Floor/Floor.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

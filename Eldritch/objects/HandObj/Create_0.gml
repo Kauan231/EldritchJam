@@ -1,6 +1,3 @@
-countdown_timer = room_speed; // 1 second
-global.numberOfEntities = 0
-
 // --- Idle Animation Variables ---
 
 // Vertical movement
@@ -16,5 +13,6 @@ origin_angle = image_angle; // Starting rotation
 // Angle counters
 angle_y = 0;
 angle_rot = 0;
+
 
 x_offset = 2; // pixels left/right

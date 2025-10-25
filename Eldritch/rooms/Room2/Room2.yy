@@ -11,6 +11,7 @@
     {"name":"inst_67A267A3","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_491DFB7C","path":"rooms/Room2/Room2.yy",},
     {"name":"inst_3EACBB6F","path":"rooms/Room2/Room2.yy",},
+    {"name":"inst_4AB90B87","path":"rooms/Room2/Room2.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -22,6 +23,9 @@
         {"$GMRInstance":"v2","%Name":"inst_491DFB7C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_491DFB7C","objectId":{"name":"obj_floor","path":"objects/obj_floor/obj_floor.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.039564684,"scaleX":1.0,"scaleY":1.0,"x":800.0,"y":512.0,},
         {"$GMRInstance":"v2","%Name":"inst_3EACBB6F","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3EACBB6F","objectId":{"name":"ChestObj_1","path":"objects/ChestObj_1/ChestObj_1.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ChestObj_1","path":"objects/ChestObj_1/ChestObj_1.yy",},"propertyId":{"name":"loreMsg","path":"objects/ChestObj_1/ChestObj_1.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"Do we even stand a chance against this monster?\"",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":576.0,"y":352.0,},
+        {"$GMRInstance":"v2","%Name":"inst_4AB90B87","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4AB90B87","objectId":{"name":"ChestObj","path":"objects/ChestObj/ChestObj.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"ChestObj","path":"objects/ChestObj/ChestObj.yy",},"propertyId":{"name":"itemId","path":"objects/ChestObj/ChestObj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"1",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":736.0,"y":352.0,},
       ],"layers":[],"name":"Instances_2","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"Assets_1","assets":[
